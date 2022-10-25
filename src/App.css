@@ -6,8 +6,23 @@ body{
   background-color: #FF74B1;
 }
 
-@media (max-width: 990px){
-  .app{
-    flex-direction: column;
+.container {
+  background-color: #A7FFE4;
+  display: flex;
+}
+
+.container>li{
+  flex: 1;
+}
+
+@media all and (max-width: 600px) {  
+    
+  .container {  
+    flex-wrap: wrap;  
+  }  
+    
+  .container > li {  
+    flex-basis: 50%;  
   }
+
 }
