@@ -3,17 +3,9 @@
 }
 
 body{
-  background-color: #FF74B1;
+  background-color: #2e0264;
 }
 
-.container {
-  background-color: #A7FFE4;
-  display: flex;
-}
-
-.container>li{
-  flex: 1;
-}
 
 @media all and (max-width: 600px) {  
     
