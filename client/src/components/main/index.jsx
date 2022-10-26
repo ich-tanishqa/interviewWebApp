@@ -7,13 +7,15 @@ const Main = () => {
 	};
 
 	return (
-		<div className={styles.main_container}>
-			<nav className={styles.navbar}>
-				<h1>Interview App</h1>
-				<button className={styles.white_btn} onClick={handleLogout}>
-					Logout
-				</button>
-			</nav>
+		<div>
+			<div className={styles.main_container}>
+				<nav className={styles.navbar}>
+					<h1>Interview App</h1>
+					<button className={styles.white_btn} onClick={handleLogout}>
+						Logout
+					</button>
+				</nav>
+			</div>
 		</div>
 	);
 };
